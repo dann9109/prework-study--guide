@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Prework Study Guide</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Prework Study Guide</h1>
+      <img src=".prework-study-guide/assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    </header>
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage, defines charset: element sets our character coding, viewport: element sets the default view of our webpage, http-equiv: sets an HTTP header for content.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>The section elements are semantic elements that define a section in a document that contains thematic content.</li>
+          <li>At the very top we see the <!DOCTYPE html> declaration. This declaration tells the browser what document type it should expect when it is opened.</li>
+          <li>Next after the declaration we see the html opening tag, which represents the root, or start, of our HTML document. Inside the html tag is an attribute of lang="en", which tells the browser language for the webpage</li>
+          <li>div element used to create a division in the page.</li>
+          <li>span element used to create an inline division.</li>
+          <li>The words "element" and "tag" are commonly used interchangeably in the web development world</li>
+          <li>The h1, h2, h3, h4, h5, h6 elements represent the level of heading a given text block represents</li>
+          <li>p elements represents a paragraph or block of text</li>
+          <li>ul, ol, and li elements represent unordered lists, ordered lists, and list items</li>
+          <li>The img element contains information about images that are displayed on the webpage and can contain various attributes; the src attribute is the most important because it defines the location of the image</li>
+          <li>The br element creates a line of empty space, or a line break, between two blocks of content</li>
+          <li>The a element (which stands for anchor) creates links to the same webpage or other webpages.</li>
+          <li>The footer element appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation.</li>
+          <li> The alt attribute contains a text string that describes the appearance and functionality of the image</li>
+        </ul>
+
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>The link element can be used to linke an external CSS file to an HTML file.</li>
+          <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+          <li>The href attribute specifies the location (URL) of the external source.</li>
+          <li>Inline CSS is applied when a developer wants to style an element directly in the HTML file, inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li>Internal style sheet is used to embed an entire stylesheet directly in the HTML file using a style element in the head element.</li>
+          <li>External CSS style sheet is the most common way to style a webpage, this is preferred because it allows developers to keep all their CSS rules in a separate file, which makes designs easier.</li>
+          <li>Declarations contain two importatn components: the CSS property we want to apply and the value of the property, for example the declaration color:blue; includes the CSS property "color" and the value for that property "blue"</li>
+          <li>The margin property acts much like a margin in a word document, it indicates how much space we want around the outside of an element.</li>
+          <li>The padding property adds space around the content inside an element.</li>
+          <li>Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector.</li>
+          
+
+        </ul>
+   
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+  <ul>
+    <li>git status: checks what branch we are currently on.</li>
+    <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+    <li>cd command opens a file or directory.</li>
+    <li>touch command creates a new file.</li>
+    <li>git init command initiates a new Git repository within a directory.</li>
+    <li>git init [project name] command creates a new repository while specifying the project's name.</li>
+    <li>git add file1.txt command is used to stage file changes, preparing them for the next commit.</li>
+    <li>git commit -m "Add new feature" command to create a commit message for the changes, making them part of your project's history.</li>
+    <li>git status command displays valuable insights into your file' modifications and staging status.</li>
+    <li>git log command lets you view a chronological list of commit history.</li>
+    <li>git diff file1.txt command lets you compare changes between your working directory and the most recent commit.</li>
+    <li>git rm file1.txt command removes files from your working directory and stages the removal for the next commit.</li>
+    <li>git mv file1.txt file2.txt command to rename and move files within your working directory.</li>
+    <li>git mv file1.txt new_directory/ to move a file to a different folder.</li>
+    <li>git config --global user.email "danielxstella@gmail.com" command configures various aspects of Git, including user information and prefrences.</li>
+    <li>git branch command is the basic git branch usage to list all existing branches.</li>
+    <li>git branch feature to create a Git brnach named "feature".</li>
+    <li>git branch -m branch-name new-branch-name to rename a Git branch.</li>
+    <li>git checkout branch_name command lets you switch between branches and restore files from different commits.</li>
+    <li>git checkout -- file_name command to discard changes to a specific file and revert it to the last commit.</li>
+    <li>git clone command creates a copy of a remote repository on your local machine.</li>
+    <li>git push origin main command sends your local Git branch commits to a remote repository, updating it with your last changes.</li>
+    <li>git pull origin master command fetches and integrates changes from a remote repository into your current local branch.</li>
+  </ul>
+   
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Boolean type represents a logical entity and is inhabitated by two values: true/false.</li>
+          <li>NaN is a special kind of number value that's typically encountered when the result of an arithmetic operation cannot be expressed as a number.</li>
+          <li>BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. With BigInts you can safely store and operate on large integers even beyonf the safe integer limit.</li>
+          <li>String type represents textual data and is encoded as a sequence of 16-bit unsigned integer values UTF-16 code units.</li>
+          <li>Arrays are regualr objects for which there is a particular relationship between integer-keyed properties and the length property.</li>
+          <li>Object this can be anything. Everything in JavaScript is an object and can be stored in a variable</li>
+          <li>for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+          <li>functions are a set of instructions that tells the computer how to perform a certain task. They're different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file is run. Instead you must call a function by name in order to execute it.</li>
+
+        </ul>
+   
+      </section>
+    </main>
+
+    <footer>
+      <p>I can code!</p>
+    </footer>
+    <script src=".prework-study-guide/assets/script.js"></script>
+  </body>
+</html>
+ 
